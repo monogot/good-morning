@@ -4,11 +4,17 @@
   "description": "good morning to community",
   "main": "index.js",
   "scripts": {
+    "start": "npx @google-cloud/functions-framework --target=sayGoodMorning",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirati Samatthanares",
+  "author": "MonoGot",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.1.1"
+    "@google-cloud/functions-framework": "^3.1.1",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
   }
 }
